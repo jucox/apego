@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+  
+}
+
+body {
+   font-family: 'Lato', sans-serif;
+}
+.logo {
+   text-align: center;
+   color:#0066cc;
+   padding-bottom: 10px ;
+    border: 30px;
+    align-items: center;
+ }
+
+
+    h2{
+         
+      color: #0066cc;
+      justify-content: center;
+      margin-bottom: 20px;
+      font-weight: 900;
+      padding: 10px;
+   
+   }
+   h3{
+      font-weight: 600;
+      font-size: 15px;
+   }
+   
+ 
+ 
+
+ div{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+ }
+
+
+ .container {
+justify-content: center;
+background-color: #fff;
+box-sizing: border-box;
+flex-direction: column;
+color:#0066cc;
+align-items: center;
+height: 800px;
+width: 800px ;
+margin-left:400px;
+margin-bottom: 20px ;
+
+}
+
+form {
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+     
+}
+
+p{
+   height: 45px;
+   border: none;
+   background-color: #e8f0fe;
+   width: 300px;
+   margin:15px ;
+   padding: 5px;
+
+}
+
+
+
+ input {
+   height: 45px;
+   border: none;
+   background-color: #e8f0fe;
+   width: 300px;
+   margin:15px ;
+   padding: 5px;
+}
+
+
+   
+
+
+
+.btn {
+   border-radius: 15px;
+   text-transform: uppercase;
+   color: #fff;
+   font-size: 10px;
+   padding: 10px 50px;
+   cursor: pointer;
+   font-weight: bold;
+   width: 150px;
+   align-self: center;
+   margin-top: 1rem;
+   background-color: #0066cc;
+   border: 1px solid #0066cc;
+}
+
+
+footer{
+  
+   background: #0066cc;  
+   color: white;
+   padding: 30px;
+   display: flex;
+   justify-content: end;
+}
+
+.footer-card{
+   cursor: pointer;
+   padding: 10px;
+
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+    div{
+       text-align: center;
+    }
+
+      
+    h2{
+         
+         color: #0066cc;
+         justify-content: center;
+         margin-bottom: 20px;
+         font-weight: 900;
+      
+      }
+     
+
+
+section {
+    
+    font-size: 15px;
+    padding-left: 200px;
+    display: flex;
+    justify-content:space-between;
+   
+ 
+    
+  }
+
+  
+table{
+    height:500px;
+   width: 600px;
+    display: inline-block;
+   }
+   
+   td  {
+     border: solid #004a94 1px;
+     height: 60px;
+     width: 100px;
+     text-align: center;
+     
+   
+   }
+   
+   th {
+     border: solid #004a94 1px;
+     height: 60px;
+     width: 100px;
+     text-align: center;
+     font-weight: 700;
+   }
+
+
+   .vencido {
+    background-color: red;  
+    color: white; 
+    text-align: center;
+    border-radius: 0.6em;
+         
+       
+   }
+
+   .Pendente {
+
+  background-color: darkorange  ;
+  color: white;    
+  text-align: center; 
+  border-radius: 0.6em;
+ 
+   }
+
+   .pago {
+
+    background-color: green;
+    color: white;
+    text-align: center;
+    border-radius: 0.6em;
+   }
+
+  

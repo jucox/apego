@@ -1,0 +1,44 @@
+
+<%- include('partials/head')%> 
+<%- include('partials/header')%> 
+<link rel="stylesheet" href="/css/cadastro.css">
+
+<body>
+    <div class="logo">
+        <img src="/img/iconereservas.jpg"  alt="" width="100px" height="100px">
+        <h2>CADASTRO</h2>
+        </div>
+
+    <div class="container">
+
+        <% if (locals.error) { %>
+            <%= locals.error %>
+        <%} %>
+
+        
+        
+        <form class="form" action="/cadastro" method="POST">
+            <label class="label-input">
+                <input type="text"  name="username" placeholder="Nome">
+            </label>
+            <label class="label-input">
+                <input type="email" name="email" placeholder="E-mail">
+            </label>
+            <label class="label-input">
+                <input type="text" name="condominio" placeholder="Condomínio">
+            </label>
+            <label class="label-input">
+                <input type="text" name="unidade" placeholder="Unidade">
+            </label>
+            <label class="label-input">
+                <input type="password"   name="senha" placeholder="Senha">
+            </label>
+            <button class="btn" type="submit">CADASTRAR</button>
+        </form>
+        <div class="login">
+            <p><a href="http://localhost:3000/login">Clique aqui para entrar!</a></p>
+        </div>
+    </div>
+</body>
+
+<%- include('partials/footer')%>
